@@ -1,0 +1,24 @@
+* { display: block!important; background: rgba(180,190,200,0.3); padding: 10px; margin: 30px 10px; min-width: 50px; min-height: 50px; max-width: 300px; overflow: visible; border: 0; }
+*:before { content: "plop"; position: relative; top: -30px; }
+html:before { content: "<html contenteditable>"; }
+head:before { content: "<head>"; }
+meta:before { content: "<meta>"; }
+link:before { content: "<link>"; }
+script:before { content: "<script>"; }
+title:before { content: "<title>"; }
+style:before { content: "<style>"; }
+base:before { content: "<base>"; }
+body:before { content: "<body>"; }
+be:before { content: "<br>"; }
+wbr:before { content: "<wbr>"; }
+select:before { content: "<select>"; }
+option:before { content: "<option>"; }
+table:before { content: "<table>"; }
+colgroup:before { content: "<colgroup>"; }
+col:before { content: "<col>"; }
+thead:before { content: "<thead>"; }
+tr:before { content: "<tr>"; }
+th:before { content: "<th>"; }
+tbody:before { content: "<tbody>"; }
+td:before { content: "<td>"; }
+tfoot:before { content: "<tfoot>"; }
