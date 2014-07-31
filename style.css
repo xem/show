@@ -1,4 +1,4 @@
-* { display: block!important; background: rgba(180,190,200,0.3); padding: 10px; margin: 30px 10px; min-width: 50px; min-height: 50px; max-width: 300px; overflow: visible; border: 0; }
+* { display: block!important; background: rgba(180,190,200,0.3); padding: 10px; margin: 30px 10px 10px; min-width: 50px; min-height: 20px; max-width: 300px; overflow: visible; border: 0; }
 *:before { content: "plop"; position: relative; top: -30px; }
 html:before { content: "<html contenteditable>"; }
 head:before { content: "<head>"; }
